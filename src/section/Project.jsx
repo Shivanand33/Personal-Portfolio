@@ -4,7 +4,7 @@ const project = [
   {
     title: "E-commarce",
     description: "shiva",
-    image: "/project/ecommarce.png",
+    image: "/projects/project1.png",
     tags: ["React", "Javascript", "Tailwindcss"],
     link: "#",
     Github: "https://github.com/Shivanand33",
@@ -12,7 +12,7 @@ const project = [
   {
     title: "zomato-clone",
     description: "zomato",
-    image: "/project/ecommarce.png",
+    image: "/projects/project2.jpg",
     tags: ["React", "Javascript", "Tailwindcss"],
     link: "#",
     Github: "https://github.com/Shivanand33",
