@@ -1,4 +1,6 @@
 import { Button } from "@/components/Button";
+ 
+
 import {
   ArrowRight,
   ChevronDown,
@@ -8,6 +10,7 @@ import {
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import { useState } from "react";
 
 const skills = [
   "React",
@@ -29,6 +32,7 @@ const skills = [
 ];
 
 export const Hero = () => {
+  const [navigate, useNavigate] = useState();
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
@@ -75,8 +79,8 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                I'am mern
-                <span className="text-primary glow-text">Full-stack</span>
+                 Hey I'am
+                <span className="text-primary glow-text">Shivanand Chaurasiya</span>
                 <br />
                 webdeveloper
                 <br />
@@ -94,6 +98,7 @@ export const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
+                
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton>

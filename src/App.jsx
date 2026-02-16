@@ -2,9 +2,10 @@ import { Navbar } from "@/layout/Navbar";
 import { Hero } from "@/section/Hero";
 import { About } from "@/section/About";
 import { Project } from "@/section/Project";
-import { Experiance } from "@/section/Experiance";
+import { Experience } from "@/section/Experience";
 import { Testimonials } from "@/section/Testimonials";
 import { Contact } from "@/section/Contact";
+import { Footer } from "./layout/Footer";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
         <Hero />
         <About />
         <Project />
-        <Experiance />
+        <Experience />
         <Testimonials />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

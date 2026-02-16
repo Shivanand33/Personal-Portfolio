@@ -1,4 +1,5 @@
 import {ArrowUpRight, Github} from "lucide-react";
+ 
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const project = [
   {
@@ -34,7 +35,7 @@ export const Project = () => {
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Projects that
             <span className="font-serif italic font-normal text-white">
-              {" "}
+             
               make an impact.
             </span>
           </h2>
@@ -57,7 +58,7 @@ export const Project = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full   transition-transform duration-700 group-hover:scale-110"
                 />
                 <div
                   className="absolute inset-0 
@@ -116,6 +117,7 @@ export const Project = () => {
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
             View All Projects
+            
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>
